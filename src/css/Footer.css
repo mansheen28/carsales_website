@@ -1,0 +1,44 @@
+/* Footer Container */
+footer {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-top {
+  padding: 10px 0;
+  margin-bottom: 1rem;
+  background-color: #8a8a8a11;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 100;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #d1d1d1; /* Light gray hover effect */
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: #d1d1d1; /* Light gray hover effect */
+}
+
+.footer-bottom p {
+  margin: 0;
+}

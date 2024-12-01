@@ -1,0 +1,125 @@
+.contact-us-container {
+  margin-bottom: 2rem;
+}
+.title-section {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.container-lets-connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+  box-sizing: border-box;
+}
+
+.contact-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item i {
+  font-size: 1rem;
+  color: #e1e1e1;
+  margin-right: 10px;
+}
+
+.contact-item p, .contact-item a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.contact-item a {
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.map-view {
+  filter: invert(100%) grayscale(0.5); border: none;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: rgb(233, 233, 233);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #8a8a8a11;
+  box-sizing: border-box;
+  color: #bfbfbf;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff6f61;
+  outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  background-color: #8a8a8a11;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border: 1px solid #444;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #454545;
+}
+
+.submit-btn:focus {
+  outline: none;
+}

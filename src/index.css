@@ -1,0 +1,19 @@
+body {
+  font-family: 'Jost', sans-serif;
+  background-color: #121010;
+}
+
+p, a, div, span, li, button, input, textarea {
+  font-family: 'Jost', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-main {
+  max-width: 75rem;
+}
+
+
